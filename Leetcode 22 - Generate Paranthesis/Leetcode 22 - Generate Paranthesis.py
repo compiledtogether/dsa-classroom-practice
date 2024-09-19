@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/generate-parentheses
+
 class Solution:
     def helper(self, n, o, c, curr, res) -> List[str]:
         # base condition
